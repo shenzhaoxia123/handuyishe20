@@ -1,0 +1,142 @@
+{
+	"tab1":[
+		{
+			"img":"newArrival (1).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+			
+		},
+		{
+			"img":"newArrival (2).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"newArrival (3).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"newArrival (4).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"newArrival (5).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		}
+	],
+	"tab2":[
+		{
+			"img":"sweet (1).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+			
+		},
+		{
+			"img":"sweet (2).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"sweet (3).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"sweet (4).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"sweet (5).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		}
+	],
+	"tab3":[
+		{
+			"img":"mather (1).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+			
+		},
+		{
+			"img":"mather (2).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"mather (3).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"mather (4).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"mather (5).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		}
+	],
+	"tab4":[
+		{
+			"img":"mancloth (1).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+			
+		},
+		{
+			"img":"mancloth (2).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"mancloth (3).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"mancloth (4).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"mancloth (5).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		}
+	],
+	"tab5":[
+		{
+			"img":"children (1).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+			
+		},
+		{
+			"img":"children (2).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"children (3).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"children (4).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		},
+		{
+			"img":"children (5).jpg",
+			"newprice":"168.00",
+			"oldprice":"378.00"
+		}
+	]
+}
