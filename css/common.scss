@@ -126,24 +126,69 @@ $size:16px;
 .hd_banTop{
     @include public(1200px);
     height:36px;
+    font-size:14px;
     .hd_banTopL{
         float:left;
         width:1020px;
-        li{
+        p{
             float:left;
             height:36px;
             line-height:36px;
             padding-left:16px;
             padding-right:16px;
             font-weight:900;
+            font-size:14px;
+            cursor: pointer;
         }
-        li:first-child{
+        p:hover{
+            color:#fe0032;
+        }
+        p:first-child{
             padding-left:50px;
             padding-right:50px;
             height:36px;
             line-height:36px;
             background:#c70a28;
             color:#fff;
+            width:190px;
+            
+            
+        }
+        
+    }
+    .hd_banTopR_ul{
+        width:190px;
+        height:456px;
+        background:#e3e3e3;
+        position:absolute;
+        left:32px;
+        top:201px;
+        li{
+            width:190px;
+            height:65px;
+            border-bottom:1px dashed #ddd;
+            padding:12px 13px;
+            background:orange;
+            h5{
+                i{
+                    display:inline-block;
+                    width:18px;
+                    height:18px;
+                    float:left;
+                    margin:1px 5px 0 0;
+                    img:last-child{
+                        display:none;
+                    }
+                    &:hover{
+                        img:first-child{
+                            display:none;
+                        }
+                        img:last-child{
+                            display:block;
+                        }
+                    }
+                }
+            }
         }
     }
     .hd_banTopR{
@@ -154,9 +199,13 @@ $size:16px;
             float:left;
             font-weight:900;
             padding-right:30px;
+            cursor: pointer;
+        }
+        li:hover{
+            color:#fe0032;
         }
         li:first-child{
-            background:url(../img/sjt.png) no-repeat 50px 18px ; 
+            background:url(../img/sjt.png) no-repeat 58px 18px ; 
         }
     }
 }

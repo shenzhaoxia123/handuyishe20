@@ -107,19 +107,21 @@ $("#hd_Hshow_R2 li").mouseenter(function(){
 //HstyleList
 $.ajax({
 	type:"get",
+	dataType : "json",
 	url:"../json/list.json",
 	success:function(json){
 		var str = "";
-		for(var i = 0 ; i < json ; i++){
-			str+=`<dl>
-					<dt>
-						<img src="../img/newArrival (1).jpg" alt="" />
-					</dt>
-					<dd>
-						<i>￥</i><em>168.00</em><span>￥378.00</span>
-						<b>立即抢购</b>
-					</dd>
-				</dl>`
+		console.log(json)
+		for(var i = 0 ; i < json.length ; i++){
+			str +=`<dl>
+						<dt>
+							<img src="../img/${json[i].img}" alt="" />
+						</dt>
+						<dd>
+							<i>￥</i><em>${json[i].newprice}</em><span>￥${json[i].oldprice}</span>
+							<b>立即抢购</b>
+						</dd>
+					</dl>`
 		}
 		$("#hd_index_HList").html(str)
 	}
