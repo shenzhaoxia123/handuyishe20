@@ -1,17 +1,13 @@
 //公共头部
-$("#wrap_header").load("common.html #hd_common_header",function(){
-		
-})
+$("#wrap_header").load("common.html #hd_common_header")
 
 //公共尾部
-//$("#wrap_footer").load("common.html #hd_common_footer",function(){
-//		
-//})
+$("#wrap_footer").load("common.html #hd_common_footer")
 //banner轮播图
 var index= 0;
 var timer = setInterval(autoPlay,3000);
 function autoPlay(){
-	var i = ++index % ( $( "#hd_banner_tablist li" ).size() );
+	var i = index++ % ( $( "#hd_banner_tablist li" ).size() );
 	
 	$("#hd_banner_tablist li").eq( i ).addClass("active").siblings().removeClass("active");
 	
@@ -84,7 +80,7 @@ $.ajax({
 		$("#hd_index_newTopicC li").mouseenter(function(){
 			clearInterval(timer2);
 			index2 = $(this).index();
-			console.log(index2)
+			//console.log(index2)
 			autoPlay2()
 			
 		}).mouseleave(function(){
@@ -111,8 +107,8 @@ $.ajax({
 	url:"../json/list.json",
 	success:function(json){
 		var str = "";
-		console.log(json)
-		for(var i = 0 ; i < json.length ; i++){
+		//console.log(json)
+		for(var i = 0 ; i <10 ; i++){
 			str +=`<dl>
 						<dt>
 							<img src="../img/${json[i].img}" alt="" />
@@ -124,6 +120,99 @@ $.ajax({
 					</dl>`
 		}
 		$("#hd_index_HList").html(str)
+	}
+})
+//DKN
+$.ajax({
+	type:"get",
+	dataType : "json",
+	url:"../json/list.json",
+	success:function(json){
+		var str = "";
+		
+		for(var i = 10 ; i < 15 ; i++){
+			str +=`<dl>
+						<dt>
+							<img src="../img/${json[i].img}" alt="" />
+						</dt>
+						<dd>
+							<i>￥</i><em>${json[i].newprice}</em><span>￥${json[i].oldprice}</span>
+							<b>立即抢购</b>
+						</dd>
+					</dl>`
+			
+		}
+		console.log(str)
+		$("#hd_index_DList").html(str)
+	}
+})
+//NANA
+$.ajax({
+	type:"get",
+	dataType : "json",
+	url:"../json/list.json",
+	success:function(json){
+		var str = "";
+		
+		for(var i = 5 ; i < 10 ; i++){
+			str +=`<dl>
+						<dt>
+							<img src="../img/${json[i].img}" alt="" />
+						</dt>
+						<dd>
+							<i>￥</i><em>${json[i].newprice}</em><span>￥${json[i].oldprice}</span>
+							<b>立即抢购</b>
+						</dd>
+					</dl>`
+			
+		}
+		$("#hd_index_NAList").html(str)
+	}
+})
+//MINI
+$.ajax({
+	type:"get",
+	dataType : "json",
+	url:"../json/list.json",
+	success:function(json){
+		var str = "";
+		
+		for(var i = 15 ; i < 20 ; i++){
+			str +=`<dl>
+						<dt>
+							<img src="../img/${json[i].img}" alt="" />
+						</dt>
+						<dd>
+							<i>￥</i><em>${json[i].newprice}</em><span>￥${json[i].oldprice}</span>
+							<b>立即抢购</b>
+						</dd>
+					</dl>`
+			
+		}
+		$("#hd_index_MList").html(str)
+	}
+})
+//NBS
+$.ajax({
+	type:"get",
+	dataType : "json",
+	url:"../json/list.json",
+	success:function(json){
+		var str = "";
+		console.log(json)
+		for(var i = 20 ; i < 25 ; i++){
+			str +=`<dl>
+						<dt>
+							<img src="../img/${json[i].img}" alt="" />
+						</dt>
+						<dd>
+							<i>￥</i><em>${json[i].newprice}</em><span>￥${json[i].oldprice}</span>
+							<b>立即抢购</b>
+						</dd>
+					</dl>`
+			
+		}
+		$("#hd_index_NBSList").html(str)
 	}
 })
 //吸顶 和 侧边栏
