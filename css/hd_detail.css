@@ -87,7 +87,8 @@ img, input {
         top: 28px;
         border: 2px solid #e5e5e5;
         padding: 7px 0;
-        display: none; }
+        display: none;
+        z-index: 99; }
         #hd_header .hd_head .hd_headR #wzdh #dh1, #hd_header .hd_head .hd_headR #wzdh #dh2, #hd_header .hd_head .hd_headR #wzdh #dh3, #hd_header .hd_head .hd_headR #wzdh #dh4, #hd_header .hd_head .hd_headR #wzdh #dh5 {
           float: left;
           height: 148px;
@@ -457,4 +458,148 @@ img, input {
         float: left;
         margin-right: 10px; }
 
-/*# sourceMappingURL=common.css.map */
+#hd_detail {
+  width: 1200px;
+  font-size: 12px;
+  margin: 0 auto;
+  height: auto; }
+  #hd_detail #detailL {
+    width: 180px;
+    height: 1309px;
+    margin-right: 15px;
+    margin-top: 30px;
+    float: left; }
+    #hd_detail #detailL #detailLT {
+      width: 180px;
+      border: 1px solid #ddd; }
+      #hd_detail #detailL #detailLT dl {
+        height: 39px;
+        overflow: hidden;
+        text-indent: 8px;
+        color: #333;
+        line-height: 30px; }
+        #hd_detail #detailL #detailLT dl dt {
+          font-weight: 900;
+          border-bottom: 1px solid #ddd;
+          padding-top: 8px;
+          margin-bottom: 8px;
+          position: relative;
+          cursor: pointer; }
+          #hd_detail #detailL #detailLT dl dt a {
+            color: #333;
+            font-size: 14px; }
+          #hd_detail #detailL #detailLT dl dt i {
+            width: 5px;
+            height: 8px;
+            background: url(../img/tri.png) no-repeat -2px -6px;
+            position: absolute;
+            right: 11px;
+            top: 18px; }
+        #hd_detail #detailL #detailLT dl dd h3 {
+          width: 108px;
+          height: 26px;
+          background: url(../img/plus.png) no-repeat 10px center;
+          padding-left: 20px;
+          cursor: pointer; }
+          #hd_detail #detailL #detailLT dl dd h3 a {
+            color: #333; }
+        #hd_detail #detailL #detailLT dl dd ul {
+          width: 180px; }
+          #hd_detail #detailL #detailLT dl dd ul li {
+            line-height: 26px; }
+            #hd_detail #detailL #detailLT dl dd ul li a {
+              color: #666; }
+            #hd_detail #detailL #detailLT dl dd ul li span {
+              color: #999;
+              padding-left: 4px; }
+    #hd_detail #detailL #detail_hotT {
+      width: 180px;
+      height: 25px;
+      background: #333;
+      line-height: 25px;
+      font-size: 14px;
+      text-indent: 5px;
+      color: #fff;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    #hd_detail #detailL #detail_hotlist {
+      width: 178px;
+      height: 712px;
+      border: 1px solid #ddd; }
+      #hd_detail #detailL #detail_hotlist dl {
+        width: 178px;
+        height: 238px;
+        padding: 8px 8px; }
+        #hd_detail #detailL #detail_hotlist dl img {
+          width: 162px;
+          height: 162px; }
+        #hd_detail #detailL #detail_hotlist dl dd p:first-child {
+          width: 162px;
+          height: 25px;
+          font-size: 14px; }
+          #hd_detail #detailL #detail_hotlist dl dd p:first-child span {
+            color: #c80a28;
+            font-size: 14px;
+            line-height: 25px;
+            float: left; }
+          #hd_detail #detailL #detail_hotlist dl dd p:first-child a {
+            line-height: 25px;
+            float: right;
+            color: #666; }
+            #hd_detail #detailL #detail_hotlist dl dd p:first-child a i {
+              color: #c80a28;
+              font-size: 12px; }
+        #hd_detail #detailL #detail_hotlist dl dd p:last-child {
+          width: 90px;
+          height: 30px;
+          line-height: 16px;
+          overflow: hidden; }
+  #hd_detail #detailR {
+    float: right; }
+    #hd_detail #detailR #detailRT {
+      width: 1000px;
+      height: 26px;
+      margin: 30px 0 20px; }
+      #hd_detail #detailR #detailRT code {
+        margin: 0 5px; }
+    #hd_detail #detailR #detailRM {
+      width: 1000px;
+      height: 30px;
+      border: 1px solid #ddd; }
+      #hd_detail #detailR #detailRM li {
+        width: 80px;
+        line-height: 30px;
+        text-align: center;
+        border-right: 1px solid #ddd;
+        float: left; }
+      #hd_detail #detailR #detailRM #rr {
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+        float: right;
+        color: #666; }
+        #hd_detail #detailR #detailRM #rr span {
+          margin-right: 8px; }
+        #hd_detail #detailR #detailRM #rr .arr {
+          border: 1px solid #ddd;
+          font-weight: 900;
+          margin-right: 5px;
+          padding: 1px 1px 0; }
+          #hd_detail #detailR #detailRM #rr .arr:hover {
+            background: #e9e9e9; }
+    #hd_detail #detailR #detailRF {
+      width: 1000px;
+      padding-top: 10px; }
+      #hd_detail #detailR #detailRF #detailRF_wrap {
+        width: 1030px;
+        height: auto; }
+        #hd_detail #detailR #detailRF #detailRF_wrap .detail_product {
+          width: 240px;
+          height: 360px;
+          position: relative;
+          float: left;
+          line-height: 1.5;
+          z-index: 1;
+          margin: 0 13px 20px 0; }
+
+/*# sourceMappingURL=hd_detail.css.map */

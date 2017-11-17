@@ -1,0 +1,148 @@
+@import "common.scss";
+#login_banner{
+    @include public(1100px);
+    height:62px;
+    margin-left:135px;
+    margin-top:20px;
+
+}
+#hd_login{
+    @include public(1100px);
+    height:485px;
+    #hd_login_L{
+        width:463px;
+        height:485px;
+        padding:40px 0 0 0;
+        border-right:1px dashed #ddd;
+        float:left;
+        #hd_login_Lpic{
+            margin-top:25px;
+            width:410px;
+            height:290px;
+        }
+    }
+    #hd_login_R{
+        width:556px;
+        height:485px;
+        margin-left:80px;
+        float:left;
+        form{
+            #hd_login_Rr{
+                width:310px;
+                height:320px;
+                margin-top:25px;
+                padding:20px 40px 20px 40px;
+                border:1px solid #ccc;
+                box-shadow: 1px 1px 5px #000;
+                h2{
+                    font-size:20px;
+                    color:#6d6d6d;
+                    border-bottom:1px solid #eee;
+                    height:30px;
+                }
+                #hd_login_list{
+                    width:310px;
+                    height:258px;
+                    li{
+                        width:300px;
+                        height:35px;
+                        margin-top:10px;
+                        .login_name{
+                            width:75px;
+                            line-height:33px;
+                            color:#393939;
+                            text-align:right;
+                            float:left;
+                        }
+                        input{
+                            width:207px;
+                            height:33px;
+                            line-height:33px;
+                            float:left;
+                            border:1px solid #eee;
+                            color:#bbb;
+                        }
+                        #login_btn{
+                            width:140px;
+                            height:35px;
+                            line-height:35px;
+                            background:#BE0929;
+                            border-radius:3px;
+                            letter-spacing:1px;
+                            color:#fff;
+                            float:left;
+                        }
+                        #login_checkedA{
+                            width:90px;
+                            height:35px;
+                            line-height:50px;
+                            float:left;
+                            #login_checked{
+                                width:13px;  
+                                height:13px; 
+                                margin-left:5px;
+                                margin-top:20px;                                                                              
+                            }
+                        }
+                        #login_yz{
+                            width:122px;
+                            float:left;
+                        }
+                        #login_yzCode{
+                            width:81px;
+                            height:31px;
+                            border:1px solid #eee;
+                            line-height:31px;
+                            text-align:center;
+                            float:left;
+                            margin-left:3px;
+                            font-size:16px;
+                            
+                        }
+                        
+                    }
+                    .btnCheck{                       margin-left:75px;
+                    }
+                    .regLost{                        margin-left:75px;
+                        a{                            color:#565656;                            text-decoration: underline;
+                        }
+                    }
+                }                               
+            }
+        }
+        #other_login{
+            width:528px;
+            height:29px;
+            margin-top:30px;
+            margin-bottom:15px;
+            line-height:29px;
+            #wzbf{
+                float:left;
+            }
+            #other_logo{
+                width:428px;
+                height:29px;
+                float:left;
+                margin-left:10px;
+                a{
+                    display:inline-block;
+                    width:97px;
+                    height:29px;
+                    margin-right:6px;
+                    float:left;
+                    background:url(../img/NEWS_login.png) no-repeat 0 -528px;;
+                }
+                a:nth-child(2){
+                    background-position:-111px -528px;
+                }
+                a:nth-child(3){
+                    background-position:-222px -528px;
+                }
+                a:nth-child(4){
+                    background-position:-333px -528px;
+                }
+            }
+            
+        }
+    }
+}

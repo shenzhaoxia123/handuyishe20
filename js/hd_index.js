@@ -1,8 +1,83 @@
 //公共头部
-$("#wrap_header").load("common.html #hd_common_header")
+$("#wrap_header").load("common.html #hd_common_header",function(){
+	$(".hd_xl").mouseenter(function(){
+	//console.log($(this))
+		$("#wzdh").show();
+		
+	})
+	$("#wzdh").mouseleave(function(){
+		$("#wzdh").hide();		
+	})
+})
+
+
 
 //公共尾部
-$("#wrap_footer").load("common.html #hd_common_footer")
+$("#wrap_footer").load("common.html #hd_common_footer",function(){
+	$(".hd_banTopR_ul").css("display","block");
+	$(".hd_banTopR_ul li").mouseenter(function(){
+		$(this).css({
+			"background":"#333"
+		})
+		$(this).find("h5").css({
+			"color":"#fff",
+			
+		}).end().find("a").css({
+			"color":"#fff",
+		})
+		$(this).find("img:first").css({
+			"display":"none",
+			
+		})
+		$(this).find("h5 img:last").css({
+			"display":"block",
+			
+		})
+		console.log($(this).find("h5 img:last"))
+		$(this).find("i").animate({"margin-left":"12px"},50)
+		
+		
+		$(this).on("mouseenter","a",function(){
+			//console.log($(this))
+			$(this).css({
+				"border-bottom":"1px solid #fff"
+			})
+		}).on("mouseleave","a",function(){
+			$(this).css({
+				"border-bottom":"0"
+			})
+		})
+		//ej
+		$("#ej").show()
+		$("#ej5 a,h6").css({
+			"color":"",
+			"border":0
+		})	
+		//$("#ej5").show()
+		
+	}).mouseleave(function(){
+		//console.log($(this))
+		$(this).css({
+			"background":""
+		})
+		$(this).find("h5").css({
+			"color":"#000",
+		}).end().find("a").css({
+			"color":"#555",
+		})
+		$(this).find("img:first").css({
+			"display":"block",
+			
+		})
+		$(this).find("h5 img:last").css({
+			"display":"none",
+			
+		})
+		$(this).find("i").animate({"margin-left":0},50)
+		$("#ej").hide()
+		//$("#ej5").hide()
+	})
+})
 //banner轮播图
 var index= 0;
 var timer = setInterval(autoPlay,3000);

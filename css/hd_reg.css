@@ -457,4 +457,320 @@ img, input {
         float: left;
         margin-right: 10px; }
 
-/*# sourceMappingURL=common.css.map */
+#reg_banner {
+  width: 1100px;
+  font-size: 12px;
+  margin: 0 auto;
+  height: 62px;
+  margin-top: 20px; }
+  #reg_banner img {
+    width: 1100px;
+    height: 60px; }
+
+#hd_reg {
+  width: 1100px;
+  font-size: 12px;
+  margin: 0 auto;
+  height: 570px; }
+  #hd_reg #hd_reg_L {
+    width: 360px;
+    height: 380px;
+    margin: 40px 0 0 30px;
+    float: left; }
+    #hd_reg #hd_reg_L #hd_reg_LT {
+      width: 360px;
+      height: 42px;
+      line-height: 42px; }
+      #hd_reg #hd_reg_L #hd_reg_LT span {
+        float: left;
+        font-size: 14px; }
+      #hd_reg #hd_reg_L #hd_reg_LT #login_zj {
+        width: 105px;
+        height: 29px;
+        font-size: 14px;
+        background: url(../img/NEWS_login.png) no-repeat -347px -211px;
+        margin: 8px 0 0 10px;
+        line-height: 29px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        float: left; }
+    #hd_reg #hd_reg_L #hd_reg_LF {
+      width: 360px;
+      height: 97px;
+      line-height: 50px;
+      margin-top: 60px; }
+      #hd_reg #hd_reg_L #hd_reg_LF #reg_dy {
+        width: 252px;
+        height: 27px;
+        border: 1px solid #ddd;
+        float: left; }
+      #hd_reg #hd_reg_L #hd_reg_LF #reg_msdy {
+        width: 70px;
+        height: 22px;
+        background: url(../img/footer00.png) no-repeat;
+        margin: 3px 5px 0;
+        float: left; }
+  #hd_reg #hd_reg_R {
+    width: 609px;
+    height: 530px;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-left: 50px;
+    border-left: 1px dashed #ddd;
+    float: left; }
+    #hd_reg #hd_reg_R #hd_reg_R1 {
+      width: 609px;
+      height: 121px;
+      border-bottom: 1px dashed #ddd; }
+      #hd_reg #hd_reg_R #hd_reg_R1 #reg_R1_1 {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: url(../img/NEWS_login.png) no-repeat 0 -326px;
+        line-height: 22px;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        float: left;
+        margin: 13px 0 0 0; }
+      #hd_reg #hd_reg_R #hd_reg_R1 #reg_R1_1c {
+        float: left;
+        line-height: 50px;
+        height: 50px;
+        margin-left: 5px; }
+      #hd_reg #hd_reg_R #hd_reg_R1 #reg_select {
+        width: 316px;
+        height: 38px;
+        margin-top: 5px;
+        float: left; }
+        #hd_reg #hd_reg_R #hd_reg_R1 #reg_select li {
+          float: left;
+          width: 135px;
+          height: 38px;
+          margin-left: 10px;
+          line-height: 38px;
+          text-align: center;
+          color: #fff;
+          background: url(../img/NEWS_login.png) no-repeat 0 -102px;
+          font-size: 14px; }
+        #hd_reg #hd_reg_R #hd_reg_R1 #reg_select li:last-child {
+          background-position: 0 -151px;
+          color: #000; }
+    #hd_reg #hd_reg_R #hd_reg_R2 {
+      width: 609px;
+      height: 300px;
+      margin-top: 20px; }
+      #hd_reg #hd_reg_R #hd_reg_R2 #reg_R2_1 {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: url(../img/NEWS_login.png) no-repeat 0 -326px;
+        line-height: 22px;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        float: left;
+        margin: 13px 0 0 0; }
+      #hd_reg #hd_reg_R #hd_reg_R2 #reg_R2_1c {
+        float: left;
+        line-height: 50px;
+        height: 50px;
+        margin-left: 5px; }
+      #hd_reg #hd_reg_R #hd_reg_R2 #reg_div {
+        width: 609px; }
+        #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list {
+          width: 580px; }
+          #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li {
+            width: 580px;
+            line-height: 33px;
+            float: left;
+            border-radius: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_user {
+              width: 115px;
+              height: 33px;
+              text-align: right;
+              float: left;
+              color: #393939; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_phone {
+              width: 208px;
+              height: 33px;
+              float: left;
+              background: url(../img/shopping_login.png) no-repeat 0 -182px;
+              text-indent: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_send {
+              width: 116px;
+              height: 26px;
+              border: 1px solid #ddd;
+              margin: 3px 0 0 5px;
+              background: url(../img/NEWS_login.png) no-repeat -256px -107px;
+              line-height: 26px;
+              text-align: center;
+              border: none;
+              color: #7b7b7b;
+              float: left; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_phonejg {
+              float: left;
+              width: 600px;
+              text-indent: 114px;
+              color: #7b7b7b; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_yz {
+              width: 115px;
+              height: 33px;
+              text-align: right;
+              float: left;
+              color: #393939; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_phoneCode {
+              width: 210px;
+              height: 33px;
+              float: left;
+              background: url(../img/shopping_login.png) no-repeat 0 -182px;
+              text-indent: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_pwd {
+              width: 115px;
+              height: 33px;
+              text-align: right;
+              float: left;
+              color: #393939; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_pwd1 {
+              width: 210px;
+              height: 33px;
+              float: left;
+              background: url(../img/shopping_login.png) no-repeat 0 -182px;
+              text-indent: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_pwdjg {
+              float: left;
+              width: 600px;
+              text-indent: 114px;
+              color: #7b7b7b; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_Qpwd {
+              width: 115px;
+              height: 33px;
+              text-align: right;
+              float: left;
+              color: #393939; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_Qpwd1 {
+              width: 210px;
+              height: 33px;
+              float: left;
+              background: url(../img/shopping_login.png) no-repeat 0 -182px;
+              text-indent: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_checkedAndRead {
+              text-indent: 115px;
+              color: #393939;
+              font-size: 16px;
+              margin-top: 10px;
+              float: left; }
+              #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_checkedAndRead #reg_checked {
+                display: inline-block; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_sub {
+              width: 171px;
+              height: 43px;
+              font-size: 18px;
+              color: #fff;
+              margin: 10px 0 0 120px;
+              background: url(../img/NEWS_login.png) no-repeat 0 -51px;
+              line-height: 43px;
+              text-align: center;
+              cursor: pointer; }
+        #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 {
+          width: 580px; }
+          #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li {
+            width: 580px;
+            line-height: 33px;
+            float: left;
+            border-radius: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_E {
+              width: 115px;
+              height: 33px;
+              text-align: right;
+              float: left;
+              color: #393939; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_Email {
+              width: 208px;
+              height: 33px;
+              float: left;
+              background: url(../img/shopping_login.png) no-repeat 0 -182px;
+              text-indent: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_emailjg {
+              float: left;
+              width: 600px;
+              text-indent: 114px;
+              color: #7b7b7b; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_pwd1 {
+              width: 115px;
+              height: 33px;
+              text-align: right;
+              float: left;
+              color: #393939; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_pwd11 {
+              width: 208px;
+              height: 33px;
+              float: left;
+              background: url(../img/shopping_login.png) no-repeat 0 -182px;
+              text-indent: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_pwdjg1 {
+              float: left;
+              width: 600px;
+              text-indent: 114px;
+              color: #7b7b7b; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_Qpwd1 {
+              width: 115px;
+              height: 33px;
+              text-align: right;
+              float: left;
+              color: #393939; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_Qpwd11 {
+              width: 210px;
+              height: 33px;
+              float: left;
+              background: url(../img/shopping_login.png) no-repeat 0 -182px;
+              text-indent: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_Qpwdjg1 {
+              float: left;
+              width: 600px;
+              text-indent: 114px;
+              color: #7b7b7b; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_yz1 {
+              width: 115px;
+              height: 33px;
+              text-align: right;
+              float: left;
+              color: #393939; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_yz11 {
+              width: 117px;
+              height: 33px;
+              border: 1px solid #ddd;
+              float: left;
+              border-radius: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_yzCode1 {
+              width: 86px;
+              height: 33px;
+              margin-left: 5px;
+              float: left;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+              line-height: 33px;
+              text-align: center;
+              font-size: 16px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_checkedAndRead1 {
+              text-indent: 115px;
+              color: #393939;
+              font-size: 16px;
+              margin-top: 10px;
+              float: left; }
+              #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_checkedAndRead1 #reg_checked1 {
+                display: inline-block; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_sub1 {
+              width: 171px;
+              height: 43px;
+              font-size: 18px;
+              color: #fff;
+              margin: 10px 0 0 120px;
+              background: url(../img/NEWS_login.png) no-repeat 0 -51px;
+              line-height: 43px;
+              text-align: center;
+              cursor: pointer; }
+
+/*# sourceMappingURL=hd_reg.css.map */

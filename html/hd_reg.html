@@ -3,7 +3,145 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" href="../css/hd_reg.css" />
 	</head>
 	<body>
+		<div id="wrap_header"></div>
+		<div id="reg_banner">
+			<img src="../img/banner1.jpg" alt="" />
+		</div>
+		<div id="hd_reg">
+			<div id="hd_reg_L">
+				<div id="hd_reg_LT">
+					<span>已是韩都衣舍用户：</span>
+					<input type="button" id="login_zj"  value="直接登录"/>
+				</div>
+				<div id="hd_reg_LC">
+					<img src="../img/367-250.png" alt="" />
+				</div>
+				<div id="hd_reg_LF">
+					<input type="text" id="reg_dy" />
+					<input type="submit" id="reg_msdy" value=""/>
+				</div>
+			</div>
+			<div id="hd_reg_R">
+				<div id="hd_reg_R1">
+					<div id="reg_R1_1">1</div>
+					<div id="reg_R1_1c">选择注册方式：</div>
+					<div id="reg_select">
+						<li>使用手机注册</li>
+						<li>使用邮箱注册</li>
+					</div>
+				</div>
+				<div id="hd_reg_R2">
+					<div id="reg_R2_1">2</div>
+					<div id="reg_R2_1c">填写您的信息：</div>
+					<div id="reg_div">
+						<form action="hd_login.html">
+							<ul id="reg_list" style="display:block;" class="reg_list">
+								<li>
+									<div id="reg_user">您的手机号：</div>
+									<input type="text" id="reg_phone"/>
+									<input type="button" value="发送验证码"  id="reg_send"/>
+									<div id="reg_tishi"></div>
+								</li>
+								<li>
+									<div id="reg_phonejg">
+										
+										请输入您在注册时使用的手机号码,若当前号码不用/丢失，或无法收到验证码?
+										<a href="" style="color: #bf0000">其他验证方式</a>
+						
+									</div>
+								</li>
+								<li style="margin-top:10px;margin-bottom:10px;">
+									<div id="reg_yz">验证码：</div>
+									<input type="text" id="reg_phoneCode"/>
+								</li>
+								<li>
+									<div id="reg_pwd">密码：</div>
+									<input type="text" id="reg_pwd1"/>
+								</li>
+								<li>
+									<div id="reg_pwdjg">
+										6-16位字符，可使用字母、数字或符号的组合
+									</div>
+								</li>
+								<li>
+									<div id="reg_Qpwd">确认密码：</div>
+									<input type="text" id="reg_Qpwd1"/>
+								</li>
+								<li>
+									<div id="reg_checkedAndRead">
+										<input type="checkbox" id="reg_checked" />
+										我已看过并接受
+										<span style="color:#bf0000">《用户协议》</span>
+									</div>
+									
+								</li>
+								<li>
+									<input type="submit" id="reg_sub" value="同意协议并注册" />
+								</li>
+								<li></li>
+							</ul>
+						</form>
+						<form action="hd_login.html">
+							<ul id="reg_list2" style="display:none"  class="reg_list">
+								<li>
+									<div id="reg_E">Email：</div>
+									<input type="text" id="reg_Email"/>
+									<div id="reg_tishi2"></div>
+								</li>
+								<li>
+									<div id="reg_emailjg">
+										
+										Email地址作为用户名，同时也用于接收账户信息、订单通知及密码找回等功能
+									</div>
+								</li>
+								<li>
+									<div id="reg_pwd1">密码：</div>
+									<input type="text" id="reg_pwd11"/>
+								</li>
+								<li>
+									<div id="reg_pwdjg1">
+										8-24位字符，可使用字母、数字或符号的组合
+									</div>
+								</li>
+								<li>
+									<div id="reg_Qpwd1">确认密码：</div>
+									<input type="text" id="reg_Qpwd11"/>
+								</li>
+								<li>
+									<div id="reg_Qpwdjg1">										
+										请再次输入密码，两次输入必须一致
+									</div>
+								</li>
+								<li>
+									<div id="reg_yz1">
+										验证码： 
+									</div>
+									<input type="text" id="reg_yz11" />
+									<div id="reg_yzCode1"></div>
+								</li>
+								<li>
+									<div id="reg_checkedAndRead1">
+										<input type="checkbox" id="reg_checked1" />
+										我已看过并接受
+										<span style="color:#bf0000">《用户协议》</span>
+									</div>
+									
+								</li>
+								<li>
+									<input type="submit" id="reg_sub1" value="同意协议并注册" />
+								</li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		<div id="wrap_footer"></div>
 	</body>
 </html>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/hd_reg.js"></script>

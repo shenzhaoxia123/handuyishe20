@@ -63,10 +63,19 @@ img, input {
           float: left;
           margin-right: 8px;
           color: #565656; }
+          #hd_header .hd_head .hd_headR ul li:hover {
+            color: #c70a28; }
         #hd_header .hd_head .hd_headR ul .li {
           color: #c70a28; }
       #hd_header .hd_head .hd_headR .hd_xl {
         margin-left: 20px; }
+        #hd_header .hd_head .hd_headR .hd_xl s {
+          display: inline-block;
+          width: 12px;
+          height: 10px;
+          background: url(../img/icon.png) no-repeat -32px -28px; }
+        #hd_header .hd_head .hd_headR .hd_xl:hover {
+          color: #c70a28; }
       #hd_header .hd_head .hd_headR #wzdh {
         width: 1200px;
         font-size: 12px;
@@ -249,9 +258,10 @@ img, input {
     height: 456px;
     background: #e3e3e3;
     position: absolute;
-    left: 40px;
+    left: 33px;
     top: 201px;
-    display: none; }
+    display: none;
+    z-index: 100; }
     .hd_banTop .hd_banTopR_ul li {
       position: relative;
       width: 190px;
