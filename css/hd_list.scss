@@ -1,0 +1,453 @@
+@import "common.scss";
+#hd_listTop{
+    @include public(1200px);
+    height:20px;
+    line-height:20px;
+    margin-top: 20px;
+    margin-bottom:30px;
+    code{
+        margin:0 5px;
+    }
+}
+#hd_list{
+    @include public(1200px);
+    height:auto;
+    #hd_listL{
+        width:175px;
+        height:auto;
+        margin-right:15px;
+        float:left;
+        h3{
+            width:170px;
+            height:30px;
+            background:url(../img/cate0.png) no-repeat;
+            padding-bottom:30px;
+        }
+        ul{
+            li{
+                width:134px;
+                height:27px;
+                padding-left:27px;
+                list-style:url(../img/menu_arr.png)  inside;
+            }
+        }
+        h4{
+            width:170px;
+            height:30px;
+            margin:30px 0 5px;
+            background:url(../img/new.png) no-repeat;
+        }
+        .listL1{
+            width:170px;
+            padding:5px;
+            border:1px solid #ddd;
+            overflow:hidden;
+            li{
+                width:158px;
+                height:auto;
+                list-style:none;
+                padding-left:0;
+                border-bottom:1px dashed  #ddd;
+                margin-bottom:8px;
+                img{
+                    width:158px;
+                    height:158px;
+                }
+                .liststatus{
+                    width:70%;
+                    height:auto;
+                    padding-top:8px;
+                    margin:0 auto;
+                    color:#333;
+                    .name{
+                         border-bottom:0;
+                        height:14px;
+                        line-height:14px;
+                        width:100%;
+                        overflow:hidden;
+                        a{
+                           color:#565656;
+                        }
+                    }
+                    .price{
+border-bottom:0;
+                        height:25px;
+                        line-height:25px;
+                        margin-top:5px;
+                        span{
+                            font-size:14px;
+                            display:block;
+                        }
+                        
+                    }
+                    .oldprice{
+border-bottom:0;
+                        height:25px;
+                        line-height:25px;
+                        em{
+                            color:#999;
+                            text-decoration: line-through;
+                            display:block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #hd_listR{
+        width:1000px;
+        height:auto;
+       // height:100px;
+        float:right;
+        background:pink;
+        #hd_listR_detailTop{
+            width:1000px;
+            height:630px;
+            border:1px solid #ddd;
+            #detailTop_left{
+                width:481px;
+                margin-right:10px;
+                border-right:1px solid #ededed;
+                float:left;
+                #detailTop_box{
+                    width:480px;
+                    height:630px;
+                    position:relative;
+                    
+                   #detail_bottom{
+                        width:458px;
+                        height:72px;
+                        position:absolute;
+                        top:480px;
+                        left:15px;
+                        overflow:hidden; 
+                        padding-left:25px;
+                        padding-bottom:12px;
+                        border-bottom:1px dashed #eee;
+                      li{
+                            float: left;   
+                            border-top:none;
+                            width:72px;
+                            height:72px;
+                            margin-right:10px;
+                            margin-top:10px;
+                            border:1px solid #fff;
+                          
+                            s{
+                                
+                                width:0px;
+                                height:0px;
+                                border-left:8px solid transparent;
+                                border-right:8px solid transparent;
+                                border-bottom:8px solid #c80a28;
+                                position:absolute;
+                                left:12%;
+                                top:2px;
+                                display:none;
+                            }
+                            .s1{
+                                 left:12%;
+                                
+                            }
+                            .s2{
+                                 left:30%;
+                            }
+                            .s3{
+                                 left:48%;
+                            }
+                            .s4{
+                                 left:66%;
+                            }
+                            .s5{
+                                 left:84%;
+                            }
+                            .ss{
+                                display:block;
+                            }
+                            
+                        }
+                        .detail_active{
+                            border-color:#c80a28;
+                        }
+                   }
+                    #detail_small{
+                       width:480px;
+                       height:480px;
+                       position:relative;
+                       cursor:move; /*鼠标移动状态*/                     
+                       img{
+                           position:absolute;
+                           
+                       } 
+                       #mm{
+                           z-index:10;
+                       } 
+                        #layer{
+                            position:absolute;
+                            top:0;
+                            left:0;
+                            width: 480px;
+                            height: 480px;
+                            display:none;
+                            z-index:11;
+                        }                    
+                        #mask{
+                            position:absolute;
+                            top:0;
+                            left:0;
+                            width: 240px;
+                            height: 240px;
+                            background: #fff;
+                            opacity:0.4 ;
+                            display:none;
+                            z-index:12;
+                        } 
+                       
+                    } 
+                    #detail_big{
+                        width:480px;
+                        height:480px;
+                        border:1px solid #ddd;
+                        overflow:hidden;
+                        position:absolute;
+                        top:0;
+                        left:495px;
+                        display:none;
+                        .bigImage{
+                            position:absolute;
+                            top:0;
+                            left:0;
+                            z-index:99;
+                        }
+                        #detail_bigTop{
+                            width:100%;
+                            height:20px;
+                            line-height:20px;
+                            text-align:center;
+                            background:rgba(0 ,0,0,0.4);
+                            position:absolute;
+                            z-index:9999;
+                            color:#fff;
+                        }
+                    }                    
+                    #detail_share{
+                        width:480px;
+                        position:absolute;
+                        left:0;
+                        top:590px;
+                        a{
+                            display:block;
+                            width:100px;
+                            height:20px;
+                            margin:4px 0 15px 15px;
+                            text-indent:21px;
+                            background:url(../img/like.png) no-repeat ;
+                            color:#565656;
+                            float:left;
+                        }
+                        .dbshare{
+                            height:16px;
+                            float:left;
+                            .dbmore{
+                                float:left;
+                                padding-left:22px;
+                                background:url(../img/is.png) no-repeat 0 0px;
+                            }
+                            a{
+                                width:22px;;
+                                float:left;
+                                margin:0;
+                                background:url(../img/is.png) no-repeat;
+                            }
+                            .dbqzone{
+                                background-position: 0 -80px;
+                            }
+                            .dbsina{
+                                background-position: 0 -120px;
+                            }
+                            .dbqq{
+                                background-position: 0 -240px;
+                            }
+                            .dbrenren{
+                                background-position: 0 -200px;
+                            }
+                            .dbt163{
+                                background-position: 0 -720px;
+                            }
+                            .dbcount{
+                                width:42px;
+                                height:16px;
+                                background:url(../img/sc.png) no-repeat 0 -30px;
+                                line-height:16px;
+                                overflow:hidden;
+                            }
+                        }
+                    }  
+                }
+            }
+            #detailTop_right{
+                width:500px;
+                height:494px;
+                float:right;
+                #detailTop_rightT{
+                    font-size:14px;
+                    color:#000;
+                    font-weight:900;
+                    
+                    span{
+                        display:block;
+                        color:#C80A28;
+                        em{
+                            font-size:12px;
+                        }
+                    }
+                }
+                #detailTop_rightT2{
+                    width:490px;
+                    border-bottom:1px solid #ddd;
+                    padding-bottom:10px;
+                    li{
+                        width:500px;
+                        height:40px;
+                        line-height:50px;
+                        .star{
+                            display:inline-block;
+                            background:url(../img/star-s.png) no-repeat 0 -17px;
+                            height:20px;
+                            width:100px;
+                            vertical-align:middle;
+                        }
+                    }
+                }
+                #detailTop_scn{
+                    width:476px;
+                    height:62px;
+                    margin:15px 4px 4px 20px;
+                    .sel_size{
+                        width:500px;
+                        height:27px;
+                        margin-bottom:8px;
+                        .label{
+                            letter-spacing:23px;
+                            float:left;
+                            position:relative;
+                            width:70px;
+                            b{
+                                letter-spacing:0;
+                                position:absolute;
+                                right:10px;
+                            }
+                        }
+                        li{
+                            height:23px;
+                            line-height:23px;
+                            float:left;
+                            padding:0 23px;
+                            color:#333;
+                            border:1px solid #ddd;
+                            vertical-align: middle;
+                            margin-right:10px;
+                            margin-bottom:2px;
+                            position:relative;
+                            span{
+                              
+                            }
+                            s{
+                                width:16px;
+                                height:16px;
+                                position:absolute;
+                                right:0;
+                                bottom:0;
+                                background:url(../img/selected.png) no-repeat;
+                                display:none;
+                            }
+                            .s{
+                                display:block;
+                            }
+                            .ll{
+                                color:#ddd;
+                            }
+                            
+                        }
+                        .li1{
+                            border:1px solid #c80a28;
+                        }
+                        .jy{
+                            border:1px dotted #ddd;
+                        }
+                    }
+                    .sel_color{
+                        width:500px;
+                        height:27px;
+                        margin-bottom:8px;
+                        .label{
+                               letter-spacing:23px;
+                            float:left;
+                            position:relative;
+                            width:70px;
+                            b{
+                                letter-spacing:0;
+                                position:absolute;
+                                right:10px;
+                            }
+                        }
+                        li{
+                            height:23px;
+                            line-height:23px;
+                            float:left;
+                            padding:0 23px;
+                            color:#333;
+                            border:1px solid #ddd;
+                            vertical-align: middle;
+                            margin-right:10px;
+                            margin-bottom:2px;
+                            position:relative;
+                            span{
+                              
+                            }
+                            s{
+                                width:16px;
+                                height:16px;
+                                position:absolute;
+                                right:0;
+                                bottom:0;
+                                background:url(../img/selected.png) no-repeat;
+                                display:none;
+                            }
+                            .s{
+                                display:block;
+                            }
+                            .ll{
+                                color:#ddd;
+                            }
+                            
+                        }
+                        .li1{
+                            border:1px solid #c80a28;
+                        }
+                        .jy{
+                            border:1px dotted #ddd;                       
+                        }
+                    }
+                    
+                }
+                .sel_num{
+                    width:476px;
+                    height:40px;
+                    margin:15px 4px 4px 20px;
+                        .label{
+                            letter-spacing:23px;
+                            position:relative;
+                            width:70px;
+                            b{
+                                letter-spacing:0;
+                                position:absolute;
+                                right:10px;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+}
+

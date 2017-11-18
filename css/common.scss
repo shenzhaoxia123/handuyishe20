@@ -211,12 +211,15 @@ $size:16px;
              border:2px solid #c70a28;
              input{
                  float:left;
+                 border:0;
+                 margin:0;
+                 line-height:28px;
              }
              #comTxt{
                  width:400px;
                  height:28px;
                  color:#c70a28;
-                 
+                 text-align:left;
              }
              #comBtn{
                  width:87px;
