@@ -97,9 +97,7 @@ border-bottom:0;
     #hd_listR{
         width:1000px;
         height:auto;
-       // height:100px;
         float:right;
-        background:pink;
         #hd_listR_detailTop{
             width:1000px;
             height:630px;
@@ -116,7 +114,7 @@ border-bottom:0;
                     
                    #detail_bottom{
                         width:458px;
-                        height:72px;
+                        height:90px;
                         position:absolute;
                         top:480px;
                         left:15px;
@@ -435,19 +433,295 @@ border-bottom:0;
                     width:476px;
                     height:40px;
                     margin:15px 4px 4px 20px;
-                        .label{
-                            letter-spacing:23px;
-                            position:relative;
-                            width:70px;
-                            b{
-                                letter-spacing:0;
-                                position:absolute;
-                                right:10px;
-                            }
+                    .label{
+                        letter-spacing:23px;
+                        position:relative;
+                        width:70px;
+                        float:left;
+                        b{
+                            letter-spacing:0;
+                            position:absolute;
+                            right:10px;
                         }
                     }
+                    .shuliangjj{
+                        width:125px;
+                        height:40px;
+                        float:left;
+                        
+                        .sel_num_sub,.sel_num_add{
+                            display:inline-block;
+                            border:1px solid #9A9A9A;
+                            width:14px;
+                            height:14px;
+                            margin-top:5px;
+                            line-height:14px;
+                            text-align:center;
+                            color:#838383;
+                            float:left;
+                            
+                        }
+                        .sel_num_sub{
+                            margin-right:5px;
+                        }
+                        .sel_num_add{
+                            margin-left:5px;
+                        }
+                        .sel_num_status{
+                            width:72px;
+                            height:28px;
+                            float:left;
+                                                            line-height:14px;
+                            text-align:center;
+                            color:#333;
+                            border:1px solid #ddd;
+                            background:rgba(0,0,0,0);
+                        }
+                    }
+                    .kucun{
+                        float:left;
+                        margin-top:5px;
+                    }
+                }
+                .Qselect{
+                    width:300px;
+                    height:30px;
+                    margin-left:90px;
+                    color:#c80a28;
+                    span{
+                        color:#c80a28;
+                        font-size:12px;
+                    }
+                }
+                .buyOrCart{
+                    width:400px;
+                    height:60px;
+                    padding-left:90px;
+                    border-bottom:1px solid #ddd;
+                    #delit_buy,#detail_cart{
+                        display:block;
+                        width:160px;
+                        height:43px;
+                        margin-bottom:15px;
+                        margin-right:20px;
+                        float:left;
+                    }
+                    #delit_buy{
+                                                background:url(../img/detail_buy.png) no-repeat;
+                    }
+                    #detail_cart{
+                        background:url(../img/detail_addcart.png) no-repeat;
+                    }
+                } 
+                .onlineServiceAndWeChat{
+                    width:400px;
+                    height:30px;
+                    margin-top:13px;
+                    margin-left:20px;
+                    li{
+                        float:left;
+                        color:#666;
+                        label{
+                            float:left;
+                        }
+                        .onlineService{
+                            display:block;
+                            width:13px;
+                            height:13px;
+                            background:url(../img/goods_details.png) no-repeat -63px -136px;
+                            float:left;
+                            margin-left:10px;
+                            margin-right:40px;
+                        }
+                        a{
+                            color:#666;
+                            position:relative;
+                           .WeChat{
+                                display:block;
+                                width:15px;
+                                height:13px;
+                                background:url(../img/goods_details.png) no-repeat -63px -136px;
+                                float:left;
+                                background:url(../img/weixin.png) no-repeat;
+                            }
+                            .weshow{
+                                position:absolute;
+                                left:0;
+                            } 
+                            
+                        }
+                        .sys11{
+                                float:left;
+                                width:50px;
+                                height:30px;
+                                margin-left:12px;
+                                margin-top:-5px;
+                            } 
+                        
+                    }
+                    
+                }
+                .payModeAndServicePromise{
+                    width:400px;
+                    height:30px;
+                    //margin-top:13px;
+                    margin-left:20px;
+                    color:#666;
+                    li{
+                       float:left;
+                        .internetPay{
+                            margin-right:50px;
+                        }
+                        .promisetitle{
+                            float:left;
+                        }
+                        .zhengpin{                           
+                            display:block;
+                            float:left;
+                            width:16px;
+                            height:16px;
+                            margin-right:10px;
+                            overflow:hidden;
+                            background:url(../img/service.png) no-repeat; 
+                            
+                        }
+                        .severdays{
+                            display:block;
+                            float:left;
+                            width:16px;
+                            height:16px;
+                            margin-right:10px;
+                            overflow:hidden;
+                            background:url(../img/service.png) no-repeat -31px 0;
+                        }
+                        .tuihuan{
+                            display:block;
+                            float:left;
+                            width:16px;
+                            height:16px;
+                            margin-right:10px;
+                            overflow:hidden;
+                            background:url(../img/service.png) no-repeat -62px 0;
+                        }
+                    }
+                }   
+            }
+        }
+        #hd_listR_detailTab{
+            width:1000px;
+            height:auto;
+            margin-top:30px;
+            #hd_detailTab_Top{
+                width:1000px;
+                height:35px;
+                border:1px solid #ddd;
+                padding-bottom:5px;
+                background-color:#f5f3f0; 
+                //position:fixed;
+                #hd_detailTab_TopBox{
+                    width:100%;
+                    height:35px;
+                    background:#fff;
+                    li{
+                        float:left;
+                        height:35px;
+                        line-height:35px;
+                        padding:1px 0;
+                        color:#888;
+                        padding:0 40px;
+                        font-weight:900;
+                        border-left:1px solid #ededed;
+                        font-size:14px;
+                    }
+                    .detailTab_active{
+                        border-top:3px solid #c80a28;
+                    }
+                }
+                
+            }
+            #hd_detailTab_TopImgOrTalk{
+                width:1000px;
+                height:auto;
+                li{
+                    //display:none;
+                    .attributes-list{
+                        width: 750px;
+                        margin: 10px auto;
+                        border: 1px solid #e6e6e6;
+                        background-color: #f6f6f6;
+                        height: auto;
+                        overflow: hidden;
+                        font: 12px/1.5 tahoma,arial,宋体;
+                        padding-bottom: 20px;
+                        #J_AttrUL{
+                            padding: 0 20px 18px;
+                            text-indent: 0;
+                            border-top: 1px solid #fff;
+                            li{
+                                float:left;
+                                color:#666;                                                               
+                            }
+                            #J_attrBrandName,#J_attrBrandcard,#J_attrBrandsize{
+                                width:220px;
+                                height:18px;
+                                margin:10px 20px 0 0;
+                            } 
+                            #J_attrBrandsize{
+                                width:210px;
+                            }                               
+                        }
+                       
+                    }
+                    #TopImg{
+                        width: 750px;
+                        margin: 10px auto;
+                    }
+                    #TB2{
+                        width: 750px;
+                        margin: 10px auto;
+                    }
+                }
+                .plq{
+                    font-weight:900;
+                    font-size:20px;
+                    text-indent: 50px;
+                } 
+                .xxss{
+                    display:none;
+                } 
+                .detailTab_show{
+                    display:block;
+                }             
             }
         }
     }
 }
+#yincang{
+    width:100%;
+    height:0px;
+    overflow:hidden;
+    margin-bottom:20px;
+}
 
+//cebianlan
+#celan{
+    width:72px;
+    height:308px;
+    position:fixed;
+    right:50%;
+    top:20%;
+    margin-right:-684px;
+    background: url(../img/float_box4.png) 0 0;
+    overflow:hidden;
+    display:none;
+    li{
+        width:72px;
+        height:80px;
+        margin-top:3px;
+        background:url(../img/float_box4.png) no-repeat;
+        //display:none;
+    }
+    li:nth-child(3){
+        height:75px;
+    }
+}
