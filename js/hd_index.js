@@ -248,7 +248,7 @@ define(function(){
 							</dl>`
 					
 				}
-				console.log(str)
+				//console.log(str)
 				$("#hd_index_DList").html(str)
 			}
 		})
@@ -305,7 +305,7 @@ define(function(){
 			url:"../json/list.json",
 			success:function(json){
 				var str = "";
-				console.log(json)
+				//console.log(json)
 				for(var i = 20 ; i < 25 ; i++){
 					str +=`<dl>
 								<dt>

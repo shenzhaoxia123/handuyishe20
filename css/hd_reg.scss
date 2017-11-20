@@ -175,6 +175,14 @@
                                 text-indent:114px;
                                 color:#7b7b7b;
                             }
+                            #reg_tishi{
+                                color:#bf0000;
+                            }
+                            .kyzc{
+                                display:none;
+                                height:20px;
+                                margin-top:5px;
+                            }
                             #reg_yz{
                                 width:115px;
                                 height:33px;
@@ -200,6 +208,9 @@
                                 height:33px;
                                 float:left;
                                                                  background:url(../img/shopping_login.png) no-repeat 0 -182px;                                text-indent:5px;
+                            }
+                            #tishi2{
+                                color:#bf0000;
                             } 
                             #reg_pwdjg{
                                float:left;
@@ -220,7 +231,9 @@
                                 float:left;
                                                                  background:url(../img/shopping_login.png) no-repeat 0 -182px;                                text-indent:5px;
                             } 
-                            #reg_checkedAndRead{
+#tishi3{
+                                color:#bf0000;
+                            }                             #reg_checkedAndRead{
                                text-indent:115px;
                                color:#393939;
                                font-size:16px;
@@ -268,6 +281,9 @@
                                 background:url(../img/shopping_login.png) no-repeat 0 -182px;
                                 text-indent:5px;
                             }
+                            #tishi11,#tishi22,#tishi33{
+                                color:#bf0000;
+                            }  
                             #reg_emailjg{
                                 float:left;
                                 width:600px;

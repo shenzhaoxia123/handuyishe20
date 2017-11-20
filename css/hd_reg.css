@@ -87,7 +87,8 @@ img, input {
         top: 28px;
         border: 2px solid #e5e5e5;
         padding: 7px 0;
-        display: none; }
+        display: none;
+        z-index: 99; }
         #hd_header .hd_head .hd_headR #wzdh #dh1, #hd_header .hd_head .hd_headR #wzdh #dh2, #hd_header .hd_head .hd_headR #wzdh #dh3, #hd_header .hd_head .hd_headR #wzdh #dh4, #hd_header .hd_head .hd_headR #wzdh #dh5 {
           float: left;
           height: 148px;
@@ -191,11 +192,15 @@ img, input {
       margin-top: 30px;
       border: 2px solid #c70a28; }
       .hd_logo .hd_logoC form input {
-        float: left; }
+        float: left;
+        border: 0;
+        margin: 0;
+        line-height: 28px; }
       .hd_logo .hd_logoC form #comTxt {
         width: 400px;
         height: 28px;
-        color: #c70a28; }
+        color: #c70a28;
+        text-align: left; }
       .hd_logo .hd_logoC form #comBtn {
         width: 87px;
         height: 28px;
@@ -615,6 +620,12 @@ img, input {
               width: 600px;
               text-indent: 114px;
               color: #7b7b7b; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_tishi {
+              color: #bf0000; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li .kyzc {
+              display: none;
+              height: 20px;
+              margin-top: 5px; }
             #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_yz {
               width: 115px;
               height: 33px;
@@ -639,6 +650,8 @@ img, input {
               float: left;
               background: url(../img/shopping_login.png) no-repeat 0 -182px;
               text-indent: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #tishi2 {
+              color: #bf0000; }
             #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_pwdjg {
               float: left;
               width: 600px;
@@ -656,6 +669,8 @@ img, input {
               float: left;
               background: url(../img/shopping_login.png) no-repeat 0 -182px;
               text-indent: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #tishi3 {
+              color: #bf0000; }
             #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list li #reg_checkedAndRead {
               text-indent: 115px;
               color: #393939;
@@ -693,6 +708,8 @@ img, input {
               float: left;
               background: url(../img/shopping_login.png) no-repeat 0 -182px;
               text-indent: 5px; }
+            #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #tishi11, #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #tishi22, #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #tishi33 {
+              color: #bf0000; }
             #hd_reg #hd_reg_R #hd_reg_R2 #reg_div form #reg_list2 li #reg_emailjg {
               float: left;
               width: 600px;

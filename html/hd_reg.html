@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>注册</title>
 		<link rel="stylesheet" href="../css/hd_reg.css" />
+		<script src="../js/cookie.js"></script>
 	</head>
 	<body>
 		<div id="wrap_header"></div>
@@ -37,13 +38,16 @@
 					<div id="reg_R2_1">2</div>
 					<div id="reg_R2_1c">填写您的信息：</div>
 					<div id="reg_div">
-						<form action="hd_login.html">
+						<form method="get" action="hd_login.html" onsubmit="return fn2()">
 							<ul id="reg_list" style="display:block;" class="reg_list">
 								<li>
 									<div id="reg_user">您的手机号：</div>
 									<input type="text" id="reg_phone"/>
 									<input type="button" value="发送验证码"  id="reg_send"/>
 									<div id="reg_tishi"></div>
+									<div class="kyzc">
+																			</div>
+									
 								</li>
 								<li>
 									<div id="reg_phonejg">
@@ -59,7 +63,8 @@
 								</li>
 								<li>
 									<div id="reg_pwd">密码：</div>
-									<input type="text" id="reg_pwd1"/>
+									<input type="password" id="reg_pwd1"/>
+									<div id="tishi2"></div>
 								</li>
 								<li>
 									<div id="reg_pwdjg">
@@ -68,11 +73,12 @@
 								</li>
 								<li>
 									<div id="reg_Qpwd">确认密码：</div>
-									<input type="text" id="reg_Qpwd1"/>
+									<input type="password" id="reg_Qpwd1"/>
+									<div id="tishi3"></div>
 								</li>
 								<li>
 									<div id="reg_checkedAndRead">
-										<input type="checkbox" id="reg_checked" />
+										<input type="checkbox" id="reg_checked" checked="checked"/>
 										我已看过并接受
 										<span style="color:#bf0000">《用户协议》</span>
 									</div>
@@ -84,12 +90,12 @@
 								<li></li>
 							</ul>
 						</form>
-						<form action="hd_login.html">
+						<form action="hd_login.html" onsubmit="return fn22()">
 							<ul id="reg_list2" style="display:none"  class="reg_list">
 								<li>
 									<div id="reg_E">Email：</div>
 									<input type="text" id="reg_Email"/>
-									<div id="reg_tishi2"></div>
+									<div id="tishi11"></div>
 								</li>
 								<li>
 									<div id="reg_emailjg">
@@ -100,15 +106,17 @@
 								<li>
 									<div id="reg_pwd1">密码：</div>
 									<input type="text" id="reg_pwd11"/>
+									<div id="tishi22"></div>
 								</li>
 								<li>
 									<div id="reg_pwdjg1">
-										8-24位字符，可使用字母、数字或符号的组合
+										8-24位字符，可使用字母、数字的组合
 									</div>
 								</li>
 								<li>
 									<div id="reg_Qpwd1">确认密码：</div>
 									<input type="text" id="reg_Qpwd11"/>
+									<div id="tishi33"></div>
 								</li>
 								<li>
 									<div id="reg_Qpwdjg1">										
@@ -124,7 +132,7 @@
 								</li>
 								<li>
 									<div id="reg_checkedAndRead1">
-										<input type="checkbox" id="reg_checked1" />
+										<input type="checkbox" id="reg_checked1" checked="checked"/>
 										我已看过并接受
 										<span style="color:#bf0000">《用户协议》</span>
 									</div>
@@ -145,3 +153,4 @@
 </html>
 <script src="../js/jquery-1.11.1.min.js"></script>
 <script src="../js/hd_reg.js"></script>
+<!--<script src="../js/require.js" data-main="../js/main"></script>-->
