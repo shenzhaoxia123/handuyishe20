@@ -142,6 +142,9 @@ define(function(){
 					showData(index,arr);
 					//分页查找 使用
 					$(".M-box").pagination({
+						coping:true,
+						prevContent:'上一页',
+    					nextContent:'下一页',
 						pageCount:total,
 						callback:function(api){
 							var data = {
@@ -165,32 +168,34 @@ define(function(){
 						if(i < arr.length){
 							//console.log(arr[i].img)
 							str+=`<div class="detail_product">
-									<div class="detail_product_wrap">
-										<img src="../img/${arr[i].img}" alt="" />
-										<b>
+									<a href="hd_list.html">
+										<div class="detail_product_wrap">
 											<img src="../img/${arr[i].img}" alt="" />
-										</b>
-										<p class="product_price">
-											<span><em>￥</em>${arr[i].newprice}</span>
-											<span>￥${arr[i].oldprice}</span>
-										</p>
-										<p class="product_title">
-											<a href="#">韩都衣舍2016秋装韩版百搭上衣打底衬衣立领韩范长袖衬衫女AA5041</a>
-											
-										</p>
-										<p class="product_status">
-											<span>
-												<em>${arr[i].num}</em>
-												<br />
-												月销量
-											</span>
-											<span>
-												<em>${arr[i].evalnum}</em>
-												<br />
-												累计评价
-											</span>
-										</p>
-									</div>
+											<b>
+												<img src="../img/${arr[i].img}" alt="" />
+											</b>
+											<p class="product_price">
+												<span><em>￥</em>${arr[i].newprice}</span>
+												<span>￥${arr[i].oldprice}</span>
+											</p>
+											<p class="product_title">
+												<a href="#">韩都衣舍2016秋装韩版百搭上衣打底衬衣立领韩范长袖衬衫女AA5041</a>
+												
+											</p>
+											<p class="product_status">
+												<span>
+													<em>${arr[i].num}</em>
+													<br />
+													月销量
+												</span>
+												<span>
+													<em>${arr[i].evalnum}</em>
+													<br />
+													累计评价
+												</span>
+											</p>
+										</div>
+									</a>		
 								</div>`
 						}
 						

@@ -45,7 +45,7 @@ img, input {
     font-size: 12px;
     margin: 0 auto; }
     #hd_header .hd_head .hd_headL {
-      width: 714px;
+      width: 550px;
       float: left; }
       #hd_header .hd_head .hd_headL li {
         float: left; }
@@ -53,8 +53,13 @@ img, input {
         color: #ff0033;
         margin-right: 20px; }
     #hd_header .hd_head .hd_headR {
-      width: 484px;
-      float: left; }
+      width: 603px;
+      float: right; }
+      #hd_header .hd_head .hd_headR .hd_head_user {
+        width: 120px;
+        height: 28px;
+        line-height: 28px;
+        color: #c70a28; }
       #hd_header .hd_head .hd_headR div, #hd_header .hd_head .hd_headR ul {
         float: left; }
       #hd_header .hd_head .hd_headR ul {
@@ -63,6 +68,10 @@ img, input {
           float: left;
           margin-right: 8px;
           color: #565656; }
+          #hd_header .hd_head .hd_headR ul li a {
+            color: #565656; }
+            #hd_header .hd_head .hd_headR ul li a:hover {
+              color: #c70a28; }
           #hd_header .hd_head .hd_headR ul li:hover {
             color: #c70a28; }
         #hd_header .hd_head .hd_headR ul .li {
@@ -87,7 +96,8 @@ img, input {
         top: 28px;
         border: 2px solid #e5e5e5;
         padding: 7px 0;
-        display: none; }
+        display: none;
+        z-index: 99; }
         #hd_header .hd_head .hd_headR #wzdh #dh1, #hd_header .hd_head .hd_headR #wzdh #dh2, #hd_header .hd_head .hd_headR #wzdh #dh3, #hd_header .hd_head .hd_headR #wzdh #dh4, #hd_header .hd_head .hd_headR #wzdh #dh5 {
           float: left;
           height: 148px;
@@ -191,11 +201,15 @@ img, input {
       margin-top: 30px;
       border: 2px solid #c70a28; }
       .hd_logo .hd_logoC form input {
-        float: left; }
+        float: left;
+        border: 0;
+        margin: 0;
+        line-height: 28px; }
       .hd_logo .hd_logoC form #comTxt {
         width: 400px;
         height: 28px;
-        color: #c70a28; }
+        color: #c70a28;
+        text-align: left; }
       .hd_logo .hd_logoC form #comBtn {
         width: 87px;
         height: 28px;
@@ -212,6 +226,8 @@ img, input {
           color: #666;
           margin-left: 5px;
           margin-right: 5px; }
+          .hd_logo .hd_logoC .formlist li a:hover {
+            color: #ff0033; }
         .hd_logo .hd_logoC .formlist li a:first-child {
           margin-left: 2px; }
   .hd_logo .hd_logoR {
@@ -242,6 +258,10 @@ img, input {
       font-weight: 900;
       font-size: 14px;
       cursor: pointer; }
+      .hd_banTop .hd_banTopL p a {
+        font-weight: 900;
+        font-size: 14px;
+        color: #fff; }
     .hd_banTop .hd_banTopL p:hover {
       color: #fe0032; }
     .hd_banTop .hd_banTopL p:first-child {
@@ -1569,7 +1589,8 @@ img, input {
         height: 230px;
         background: url(../img/footer02.png) no-repeat; }
       #hd_index_zx #hd_indexZx_con #hd_index_wqhDy #hd_wqhDy_B {
-        width: 400px; }
+        width: 400px;
+        height: 30px; }
         #hd_index_zx #hd_indexZx_con #hd_index_wqhDy #hd_wqhDy_B #wqhDy_txt {
           width: 252px;
           height: 27px;
@@ -1585,6 +1606,16 @@ img, input {
           background: #c90422;
           float: left;
           color: #fff; }
+      #hd_index_zx #hd_indexZx_con #hd_index_wqhDy .emailjl {
+        width: 250px;
+        height: 20px;
+        padding: 2px 0;
+        text-align: center;
+        line-height: 20px;
+        color: #34772A;
+        background: #FFFDEE;
+        border: 1px solid #D9D3BB;
+        display: none; }
 
 #xiding {
   width: 100%;

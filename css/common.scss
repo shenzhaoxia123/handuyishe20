@@ -24,7 +24,7 @@ $size:16px;
     .hd_head{
          @include public(1200px);
         .hd_headL{
-            width:714px;
+            width:550px;
             float: left;
             
             li{
@@ -34,10 +34,16 @@ $size:16px;
                 color:#ff0033;
                 margin-right:20px;
             }
-        }
+        }        
         .hd_headR{
-            width:484px;
-            float: left;
+            width:603px;
+            float: right;
+            .hd_head_user{
+                width:120px;
+                height:28px;
+                line-height:28px;
+                color:#c70a28;
+            }
             div,ul{
                 float:left;
             }
@@ -48,6 +54,13 @@ $size:16px;
                     float: left;
                     margin-right:8px;
                     color:#565656;
+                    a{
+                        color:#565656;
+                        &:hover{
+                            color:#c70a28;
+                        }
+                    }
+                    
                     &:hover{
                         color:#c70a28;
                     }
@@ -239,6 +252,9 @@ $size:16px;
                     color:#666;
                     margin-left:5px;
                     margin-right:5px;
+                    &:hover{
+                        color:#ff0033;
+                    }
                      
                  }
                  a:first-child{
@@ -276,6 +292,11 @@ $size:16px;
             font-weight:900;
             font-size:14px;
             cursor: pointer;
+            a{
+                font-weight:900;
+                font-size:14px;
+                color:#fff;
+            }
         }
         p:hover{
             color:#fe0032;
