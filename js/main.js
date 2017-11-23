@@ -17,10 +17,10 @@ require(["jquery","cookie","hdindex","hdlist","pagination","hddetail"],function(
 //	co.getCookie();
 //	co.removeCookie();
 //登录后获取name名，表示已经登录
-	var str = co.getCookie("prolist");
-	var hear_use = str[0].phone
-	ind.fn(hear_use);
-	console.log(str[0].phone)
+	// var str = co.getCookie("prolist");
+	// var hear_use = str[0].phone
+	// ind.fn(hear_use);
+	// console.log(str[0].phone)
 	list.fn();
 	pag.fn();
 	det.fn();
